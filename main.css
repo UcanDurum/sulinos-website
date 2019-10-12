@@ -36,6 +36,10 @@ body {
     font-weight: normal;
     text-decoration: none;
 }
+.headerbutton:hover {
+  color: #9C27B0;
+  background-color: white;
+}
 
 /*Boooooooooooooooooooooooody*/
 h1 {
@@ -44,10 +48,22 @@ h1 {
   color: white;
 }
 p {
+  float: left;
   padding-left: 10px;
   color: white;
+}
+.alan {
+  float: right;
 }
 .svg {
   max-width: 500px;
   height: auto;
+}
+
+@media (max-width: 540px)
+{
+  .svg {
+    width: 100%;
+    height: auto;
+  }
 }
