@@ -47,17 +47,26 @@ h1 {
   padding-left: 10px;
   color: white;
 }
-p {
+.paragraf1 {
   float: left;
   padding-left: 10px;
+  color: white;
+  width: 50%;
+}
+.paragraf2 {
+  float: right;
+  padding-right: 10px;
   color: white;
   width: 50%;
 }
 .alan {
   padding-top: 300px;
 }
-.minialan {
+.minialan1 {
   float: right;
+}
+.minialan2 {
+  float: left;
 }
 .butonalan {
   float: left;
@@ -98,5 +107,13 @@ a.button:hover {
   .svg {
     width: 100%;
     height: auto;
+  }
+  .paragraf1, .paragraf2 {
+    width: 100%;
+  }
+  a.button {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
