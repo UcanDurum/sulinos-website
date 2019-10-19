@@ -52,12 +52,16 @@ h1 {
   padding-left: 10px;
   color: white;
   width: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .paragraf2 {
   float: right;
   padding-right: 10px;
   color: white;
   width: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .alan {
   padding-top: 300px;
@@ -109,11 +113,44 @@ a.button:hover {
     height: auto;
   }
   .paragraf1, .paragraf2 {
-    width: 100%;
+    width: 90%;
   }
   a.button {
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+/*Fooooooooooooooooooooooooooooter*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #9C27B0;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer-sosyal-ikon {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-sosyal-ikon ul{
+    margin: auto;
+    padding-bottom: 5px;
+}
+.footer-sosyal-ikon ul li{
+  display: inline-block;
+  width: 50px;
+  height: 10px;
+  margin: 10px 10px;
+}
+.footer-sosyal-ikon ul li a{
+  font-size: 27px;
+  color: white;
 }
